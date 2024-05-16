@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date methods</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1><u>Task 01</u></h1>
+<h3 id="demo1"></h3>
+<h1><u>Task 02</u></h1>
+<h3 id="demo2"></h3>
+<h1><u>Task 03</u></h1>
+<h3 id="demo3"></h3>
+<h1><u>Task 04</u></h1>
+<h3 id="demo4"></h3>
+<h1><u>Task 05</u></h1>
+<h3 id="demo5"></h3>
+<h1><u>Task 06</u></h1>
+<h3 id="demo6"></h3>
+<h3 id="demo7"></h3>
+<h3 id="demo8"></h3>
+<h1><u>Task 07</u></h1>
+<h3 id="demo9"></h3><hr>
+<h1><u>Task 08</u></h1>
+<h3 id="demo10"></h3>
+<h1><u>Task 09</u></h1>
+
+<h3 id="demo11"></h3>
+<h1><u>Task 10</u></h1>
+<h3 id="demo12"></h3>
+<h3 id="demo13"></h3>
+<h1><u>Task 11</u></h1>
+
+<h3 id="demo14"></h3>
+<h3 id="demo15"></h3>
+<h1><u>Task 12</u></h1>
+
+<h3 id="demo16"></h3>
+<h3 id="demo17"></h3>
+<h1><u>Task 13</u></h1>
+
+<h3 id="demo18"></h3>
+<h3 id="demo19"></h3>
+<h1><u>Task 14</u></h1>
+</center>
+
+<div class="bill-container">
+    <h2>K-Electric Bill</h2>
+    <div class="bill-item">
+        <label for="customerName">Customer Name:</label>
+        <input type="text" id="customerName">
+    </div>
+    <div class="bill-item">
+        <label for="units">Number of Units:</label>
+        <input type="number" id="units" step="1">
+    </div>
+    <div class="bill-item">
+        <label for="chargesPerUnit">Charges per Unit:</label>
+        <input type="text" id="chargesPerUnit" placeholder="16" readonly>
+        
+        </div>
+    <div class="bill-item">
+        <label for="latePaymentSurcharge">Late Payment Surcharge:</label>
+        <input type="number" id="latePaymentSurcharge" placeholder="350" readonly>
+    </div>
+    <button onclick="generateBill()">Generate Bill</button>
+    
+    <div id="billResult" class="bill-result"></div>
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
